@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31867AA26EACC5400CFFDB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867A926EACC5400CFFDB5 /* AppDelegate.swift */; };
+		D31867AC26EACC5400CFFDB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867AB26EACC5400CFFDB5 /* SceneDelegate.swift */; };
+		D31867AE26EACC5400CFFDB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867AD26EACC5400CFFDB5 /* ViewController.swift */; };
+		D31867B126EACC5400CFFDB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31867AF26EACC5400CFFDB5 /* Main.storyboard */; };
+		D31867B426EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D31867B226EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld */; };
+		D31867B626EACC5500CFFDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31867B526EACC5500CFFDB5 /* Assets.xcassets */; };
+		D31867B926EACC5500CFFDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31867B726EACC5500CFFDB5 /* LaunchScreen.storyboard */; };
+		D31867C426EACC5500CFFDB5 /* Minhas_ViagensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867C326EACC5500CFFDB5 /* Minhas_ViagensTests.swift */; };
+		D31867CF26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867CE26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31867C026EACC5500CFFDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D318679E26EACC5400CFFDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31867A526EACC5400CFFDB5;
+			remoteInfo = "Minhas Viagens";
+		};
+		D31867CB26EACC5500CFFDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D318679E26EACC5400CFFDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31867A526EACC5400CFFDB5;
+			remoteInfo = "Minhas Viagens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31867A626EACC5400CFFDB5 /* Minhas Viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minhas Viagens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31867A926EACC5400CFFDB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D31867AB26EACC5400CFFDB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D31867AD26EACC5400CFFDB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D31867B026EACC5400CFFDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31867B326EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minhas_Viagens.xcdatamodel; sourceTree = "<group>"; };
+		D31867B526EACC5500CFFDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31867B826EACC5500CFFDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D31867BA26EACC5500CFFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31867BF26EACC5500CFFDB5 /* Minhas ViagensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minhas ViagensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31867C326EACC5500CFFDB5 /* Minhas_ViagensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minhas_ViagensTests.swift; sourceTree = "<group>"; };
+		D31867C526EACC5500CFFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31867CA26EACC5500CFFDB5 /* Minhas ViagensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minhas ViagensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31867CE26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minhas_ViagensUITests.swift; sourceTree = "<group>"; };
+		D31867D026EACC5500CFFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31867A326EACC5400CFFDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867BC26EACC5500CFFDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867C726EACC5500CFFDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D318679D26EACC5400CFFDB5 = {
+			isa = PBXGroup;
+			children = (
+				D31867A826EACC5400CFFDB5 /* Minhas Viagens */,
+				D31867C226EACC5500CFFDB5 /* Minhas ViagensTests */,
+				D31867CD26EACC5500CFFDB5 /* Minhas ViagensUITests */,
+				D31867A726EACC5400CFFDB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D31867A726EACC5400CFFDB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31867A626EACC5400CFFDB5 /* Minhas Viagens.app */,
+				D31867BF26EACC5500CFFDB5 /* Minhas ViagensTests.xctest */,
+				D31867CA26EACC5500CFFDB5 /* Minhas ViagensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31867A826EACC5400CFFDB5 /* Minhas Viagens */ = {
+			isa = PBXGroup;
+			children = (
+				D31867A926EACC5400CFFDB5 /* AppDelegate.swift */,
+				D31867AB26EACC5400CFFDB5 /* SceneDelegate.swift */,
+				D31867AD26EACC5400CFFDB5 /* ViewController.swift */,
+				D31867AF26EACC5400CFFDB5 /* Main.storyboard */,
+				D31867B526EACC5500CFFDB5 /* Assets.xcassets */,
+				D31867B726EACC5500CFFDB5 /* LaunchScreen.storyboard */,
+				D31867BA26EACC5500CFFDB5 /* Info.plist */,
+				D31867B226EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld */,
+			);
+			path = "Minhas Viagens";
+			sourceTree = "<group>";
+		};
+		D31867C226EACC5500CFFDB5 /* Minhas ViagensTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31867C326EACC5500CFFDB5 /* Minhas_ViagensTests.swift */,
+				D31867C526EACC5500CFFDB5 /* Info.plist */,
+			);
+			path = "Minhas ViagensTests";
+			sourceTree = "<group>";
+		};
+		D31867CD26EACC5500CFFDB5 /* Minhas ViagensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D31867CE26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift */,
+				D31867D026EACC5500CFFDB5 /* Info.plist */,
+			);
+			path = "Minhas ViagensUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D31867A526EACC5400CFFDB5 /* Minhas Viagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31867D326EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas Viagens" */;
+			buildPhases = (
+				D31867A226EACC5400CFFDB5 /* Sources */,
+				D31867A326EACC5400CFFDB5 /* Frameworks */,
+				D31867A426EACC5400CFFDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minhas Viagens";
+			productName = "Minhas Viagens";
+			productReference = D31867A626EACC5400CFFDB5 /* Minhas Viagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31867BE26EACC5500CFFDB5 /* Minhas ViagensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31867D626EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas ViagensTests" */;
+			buildPhases = (
+				D31867BB26EACC5500CFFDB5 /* Sources */,
+				D31867BC26EACC5500CFFDB5 /* Frameworks */,
+				D31867BD26EACC5500CFFDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31867C126EACC5500CFFDB5 /* PBXTargetDependency */,
+			);
+			name = "Minhas ViagensTests";
+			productName = "Minhas ViagensTests";
+			productReference = D31867BF26EACC5500CFFDB5 /* Minhas ViagensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31867C926EACC5500CFFDB5 /* Minhas ViagensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31867D926EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas ViagensUITests" */;
+			buildPhases = (
+				D31867C626EACC5500CFFDB5 /* Sources */,
+				D31867C726EACC5500CFFDB5 /* Frameworks */,
+				D31867C826EACC5500CFFDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31867CC26EACC5500CFFDB5 /* PBXTargetDependency */,
+			);
+			name = "Minhas ViagensUITests";
+			productName = "Minhas ViagensUITests";
+			productReference = D31867CA26EACC5500CFFDB5 /* Minhas ViagensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D318679E26EACC5400CFFDB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D31867A526EACC5400CFFDB5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D31867BE26EACC5500CFFDB5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D31867A526EACC5400CFFDB5;
+					};
+					D31867C926EACC5500CFFDB5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D31867A526EACC5400CFFDB5;
+					};
+				};
+			};
+			buildConfigurationList = D31867A126EACC5400CFFDB5 /* Build configuration list for PBXProject "Minhas Viagens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D318679D26EACC5400CFFDB5;
+			productRefGroup = D31867A726EACC5400CFFDB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31867A526EACC5400CFFDB5 /* Minhas Viagens */,
+				D31867BE26EACC5500CFFDB5 /* Minhas ViagensTests */,
+				D31867C926EACC5500CFFDB5 /* Minhas ViagensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31867A426EACC5400CFFDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31867B926EACC5500CFFDB5 /* LaunchScreen.storyboard in Resources */,
+				D31867B626EACC5500CFFDB5 /* Assets.xcassets in Resources */,
+				D31867B126EACC5400CFFDB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867BD26EACC5500CFFDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867C826EACC5500CFFDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31867A226EACC5400CFFDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31867AE26EACC5400CFFDB5 /* ViewController.swift in Sources */,
+				D31867AA26EACC5400CFFDB5 /* AppDelegate.swift in Sources */,
+				D31867AC26EACC5400CFFDB5 /* SceneDelegate.swift in Sources */,
+				D31867B426EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867BB26EACC5500CFFDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31867C426EACC5500CFFDB5 /* Minhas_ViagensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31867C626EACC5500CFFDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31867CF26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31867C126EACC5500CFFDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31867A526EACC5400CFFDB5 /* Minhas Viagens */;
+			targetProxy = D31867C026EACC5500CFFDB5 /* PBXContainerItemProxy */;
+		};
+		D31867CC26EACC5500CFFDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31867A526EACC5400CFFDB5 /* Minhas Viagens */;
+			targetProxy = D31867CB26EACC5500CFFDB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D31867AF26EACC5400CFFDB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31867B026EACC5400CFFDB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D31867B726EACC5500CFFDB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31867B826EACC5500CFFDB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D31867D126EACC5500CFFDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D31867D226EACC5500CFFDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31867D426EACC5500CFFDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas Viagens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-Viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31867D526EACC5500CFFDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas Viagens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-Viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D31867D726EACC5500CFFDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas ViagensTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-ViagensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minhas Viagens.app/Minhas Viagens";
+			};
+			name = Debug;
+		};
+		D31867D826EACC5500CFFDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas ViagensTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-ViagensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minhas Viagens.app/Minhas Viagens";
+			};
+			name = Release;
+		};
+		D31867DA26EACC5500CFFDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas ViagensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-ViagensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Minhas Viagens";
+			};
+			name = Debug;
+		};
+		D31867DB26EACC5500CFFDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Minhas ViagensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Minhas-ViagensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Minhas Viagens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31867A126EACC5400CFFDB5 /* Build configuration list for PBXProject "Minhas Viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31867D126EACC5500CFFDB5 /* Debug */,
+				D31867D226EACC5500CFFDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31867D326EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas Viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31867D426EACC5500CFFDB5 /* Debug */,
+				D31867D526EACC5500CFFDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31867D626EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas ViagensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31867D726EACC5500CFFDB5 /* Debug */,
+				D31867D826EACC5500CFFDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31867D926EACC5500CFFDB5 /* Build configuration list for PBXNativeTarget "Minhas ViagensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31867DA26EACC5500CFFDB5 /* Debug */,
+				D31867DB26EACC5500CFFDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D31867B226EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D31867B326EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodel */,
+			);
+			currentVersion = D31867B326EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodel */;
+			path = Minhas_Viagens.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D318679E26EACC5400CFFDB5 /* Project object */;
+}
