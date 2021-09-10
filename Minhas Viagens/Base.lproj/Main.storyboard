@@ -11,13 +11,13 @@
         <!--Minhas Viagens-->
         <scene sceneID="Ru1-6f-2cb">
             <objects>
-                <tableViewController id="j5p-2U-WVK" sceneMemberID="viewController">
+                <tableViewController id="j5p-2U-WVK" customClass="LocaisViagensTableViewController" customModule="Minhas_Viagens" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="URT-kt-go1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="war-gz-yCp">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaReuso" id="war-gz-yCp">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="war-gz-yCp" id="7Ux-cu-C3n">
@@ -47,18 +47,32 @@
         <!--Mapa-->
         <scene sceneID="CF7-0k-uOB">
             <objects>
-                <viewController title="Mapa" id="N0w-D5-ue3" sceneMemberID="viewController">
+                <viewController title="Mapa" id="N0w-D5-ue3" customClass="ViewController" customModule="Minhas_Viagens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mj2-Xr-WH0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Oog-8d-tP4">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="cQ1-IN-pBF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oog-8d-tP4" firstAttribute="bottom" secondItem="cQ1-IN-pBF" secondAttribute="bottom" id="Owy-a3-u3c"/>
+                            <constraint firstItem="Oog-8d-tP4" firstAttribute="leading" secondItem="cQ1-IN-pBF" secondAttribute="leading" id="XWp-3s-ZGn"/>
+                            <constraint firstItem="Oog-8d-tP4" firstAttribute="top" secondItem="cQ1-IN-pBF" secondAttribute="top" id="etP-gM-nDT"/>
+                            <constraint firstItem="cQ1-IN-pBF" firstAttribute="trailing" secondItem="Oog-8d-tP4" secondAttribute="trailing" id="z34-xc-u4S"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Mapa" id="a51-ua-1MS"/>
+                    <connections>
+                        <outlet property="mapa" destination="Oog-8d-tP4" id="x44-2y-gaj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGE-9h-ydT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="142"/>
+            <point key="canvasLocation" x="876.81159420289862" y="141.96428571428569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="t3R-x5-Qtn">

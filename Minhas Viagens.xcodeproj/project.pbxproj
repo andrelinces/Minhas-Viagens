@@ -16,6 +16,7 @@
 		D31867B926EACC5500CFFDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31867B726EACC5500CFFDB5 /* LaunchScreen.storyboard */; };
 		D31867C426EACC5500CFFDB5 /* Minhas_ViagensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867C326EACC5500CFFDB5 /* Minhas_ViagensTests.swift */; };
 		D31867CF26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867CE26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift */; };
+		D31867DF26EAD44200CFFDB5 /* LocaisViagensTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31867DE26EAD44200CFFDB5 /* LocaisViagensTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D31867CA26EACC5500CFFDB5 /* Minhas ViagensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minhas ViagensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31867CE26EACC5500CFFDB5 /* Minhas_ViagensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minhas_ViagensUITests.swift; sourceTree = "<group>"; };
 		D31867D026EACC5500CFFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31867DE26EAD44200CFFDB5 /* LocaisViagensTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViagensTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D31867A926EACC5400CFFDB5 /* AppDelegate.swift */,
 				D31867AB26EACC5400CFFDB5 /* SceneDelegate.swift */,
 				D31867AD26EACC5400CFFDB5 /* ViewController.swift */,
+				D31867DE26EAD44200CFFDB5 /* LocaisViagensTableViewController.swift */,
 				D31867AF26EACC5400CFFDB5 /* Main.storyboard */,
 				D31867B526EACC5500CFFDB5 /* Assets.xcassets */,
 				D31867B726EACC5500CFFDB5 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				D31867AA26EACC5400CFFDB5 /* AppDelegate.swift in Sources */,
 				D31867AC26EACC5400CFFDB5 /* SceneDelegate.swift in Sources */,
 				D31867B426EACC5400CFFDB5 /* Minhas_Viagens.xcdatamodeld in Sources */,
+				D31867DF26EAD44200CFFDB5 /* LocaisViagensTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
