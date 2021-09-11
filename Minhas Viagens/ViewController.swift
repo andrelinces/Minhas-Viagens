@@ -36,16 +36,48 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             //Recupera as coordenadas do ponto que foi pressionado (selecionado)
             let pontoSelecionado = gesture.location( in: self.mapa)
             let coordenadas = mapa.convert(pontoSelecionado, toCoordinateFrom: self.mapa)
+            //Constante para utilizar o CLLocation, pois coordenadas recebe é do tipo coordenate2D
+            let localizacao = CLLocation(latitude: coordenadas.latitude, longitude: coordenadas.longitude)
             
-            //Exibe anotação com os dados do endereço
-            let anotacao = MKPointAnnotation()
+            //Recupera o endereço do ponto selecionado
+            var localCompleto = "Endereço não encontrado !!"
+            CLGeocoder().reverseGeocodeLocation(localizacao) { local, erro in
+                
+                if erro == nil {
+                    //Vamos tentar recuperar primeiramente o nome do local, se não for possível, o endereço, senão, a variável recebe o seu valor
+                    //endereço não encontrado!
+                    if let dadosLocal = local?.first{
+                        
+                        if let nome = dadosLocal.name{
+                            localCompleto = nome
+                        }else{
+                            
+                            if let endereco = dadosLocal.thoroughfare{
+                                localCompleto = endereco
+                            }
+                        }
+                        
+                    }
+                    
+                    //Exibe anotação com os dados do endereço
+                    let anotacao = MKPointAnnotation()
+                    
+                    anotacao.coordinate.latitude = coordenadas.latitude
+                    anotacao.coordinate.longitude = coordenadas.longitude
+                    anotacao.title = localCompleto
+                    //anotacao.title = "Estou aqui !"
+                    
+                    self.mapa.addAnnotation( anotacao )
+                    
+                    
+                }else{
+                    
+                    print(erro)
+                    
+                }
+                
+            }
             
-            anotacao.coordinate.latitude = coordenadas.latitude
-            anotacao.coordinate.longitude = coordenadas.longitude
-            anotacao.title = "Pressionei aqui !"
-            anotacao.title = "Estou aqui !"
-            
-            mapa.addAnnotation( anotacao )
             
         }
     }
