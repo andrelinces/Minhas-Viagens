@@ -13,7 +13,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     @IBOutlet weak var mapa: MKMapView!
     //Inicializando o objeto
     var gerenciadorLocalizacao = CLLocationManager ()
-    
+    //Criando atributo do tipo dictionary
+    var viagem:  Dictionary<String, String>  = [:]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
                         }
                         
                     }
+                    
+                    //Salvar os dados no dispositivo
+                    
+                    self.viagem = [ "local": localCompleto, "latitude": String(coordenadas.latitude), "longitude": String(coordenadas.longitude) ]
+                    ArmazenamentoDados().salvarViagem(viagem: self.viagem)
+                    //print para testar se as informações estão corretas
+                    //print( ArmazenamentoDados().listarViagem() )
+                    
                     
                     //Exibe anotação com os dados do endereço
                     let anotacao = MKPointAnnotation()
